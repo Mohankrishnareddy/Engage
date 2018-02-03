@@ -1,0 +1,175 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".QuickSearch">
+
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar"/>
+
+
+    <TextView
+        android:id="@+id/tvLooking_for"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Looking For"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:textStyle="bold"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Age"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <Spinner
+            android:id="@+id/spinner_min_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp">
+
+        </Spinner>
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="20dp" />
+
+        <Spinner
+            android:id="@+id/spinner_max_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginRight="0dp">
+
+        </Spinner>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tvHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Height"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <Spinner
+            android:id="@+id/spinner_min_height"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp">
+
+        </Spinner>
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="20dp" />
+
+        <Spinner
+            android:id="@+id/spinner_max_height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginRight="0dp">
+
+        </Spinner>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvMarital_Status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:text="@string/marital_status"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinner_marital_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvReligion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/religion"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:textStyle="bold"/>
+
+    <Spinner
+        android:id="@+id/spinner_religion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Country"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:textStyle="bold"/>
+    <Spinner
+        android:id="@+id/spinner_country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/only_with_photo" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/search"
+        android:layout_marginLeft="60dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom">
+
+
+        <include
+            android:id="@+id/bottom_navigation"
+            layout="@layout/bottom_navigation_bar" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

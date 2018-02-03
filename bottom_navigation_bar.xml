@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/bottom_action_bar"
+    android:layout_height="56dp"
+    android:layout_width="match_parent"
+    android:layout_gravity="bottom"
+    android:background="@drawable/bottom_navigation_border_rectangle_shape"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/bnHome"
+        android:layout_height="match_parent"
+        android:paddingBottom="10dp"
+        android:paddingTop="8dp"
+        android:layout_width="0dp"
+        android:layout_weight="0.25"
+        app:srcCompat="@drawable/ic_home_black_24dp" />
+
+    <ImageView
+        android:id="@+id/bnfav"
+        android:layout_height="match_parent"
+        android:paddingBottom="10dp"
+        android:paddingTop="8dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:layout_width="0dp"
+        android:layout_weight="0.25"
+        app:srcCompat="@drawable/ic_favorite_black_24dp"/>
+
+    <ImageView
+        android:id="@+id/bnsearch"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="6dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:layout_weight="0.25"
+        android:padding="6dp"
+        android:background="@drawable/ic_action_search"/>
+
+    <ImageView
+        android:id="@+id/bnnotification"
+        android:layout_height="match_parent"
+        android:paddingBottom="10dp"
+        android:paddingTop="8dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:layout_width="0dp"
+        android:layout_weight="0.25"
+        app:srcCompat="@drawable/ic_notifications_black_24dp" />
+
+    <ImageView
+        android:id="@+id/bnMyAccount"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="8dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:layout_weight="0.25"
+        app:srcCompat="@drawable/ic_account_box_black_24dp" />
+
+
+</LinearLayout>

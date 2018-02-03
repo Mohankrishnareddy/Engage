@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <include android:id="@+id/tool_bar"
+        layout="@layout/tool_bar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="120dp"
+                android:background="@drawable/logo"
+                android:layout_weight="0.39"
+                android:layout_marginLeft="120dp"
+                android:contentDescription="@string/about_image_and_descreption" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="@string/about_us"
+                android:textColor="#000"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="5dp"
+                android:gravity="start"
+                android:text="@string/marriages_are_made_in_heaven_is_the_most_common_age_old_adagewhose_regular_usage_is_now_replaced_by_marriages_are_made_on_web_thanks_to_mushrooming_online_matrimonial_websites_evolution_and_progress_of_ecommerce_has_influenced_almost_every_segment_of_world_s_trade_and_industry_bringing_them_online_and_marriage_consultants_too_are_not_an_exception_who_caught_up_with_the_emerging_trend_swiftly_and_updated_themselves_with_virtual_interfaces_apart_from_conventional_marriage_consultants_the_huge_opportunity_even_encouraged_professionals_and_businesses_into_flow_into_and_get_their_dedicated_match_making_ventures_going_shaadi_com_and_bharatmatrimony_com_are_the_apt_examples"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+
+            <ImageView
+                android:id="@+id/about"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:gravity="center"
+                android:background="@drawable/blog_two"
+                android:layout_weight="0.75"
+                android:contentDescription="@string/about_image_and_descreption" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

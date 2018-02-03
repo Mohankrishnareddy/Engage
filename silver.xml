@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include android:id="@+id/tool_bar"
+        layout="@layout/tool_bar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <TextView
+                android:id="@+id/tvYour_Selected_Plan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="15dp"
+                android:text="@string/your_selected_plan"
+                android:textColor="@color/colorBlue"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:id="@+id/loPrice_Packages"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="24.22"
+                android:background="@drawable/btn_border"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/tvGold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="SILVER"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="18sp" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="2dp" />
+
+
+                <TextView
+                    android:id="@+id/tvDuration"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:layout_marginLeft="3dp"
+                    android:text="Duration: 3 Months"
+                    android:textColor="@color/colorGray"
+                    android:textSize="16sp" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="2dp" />
+
+                <TextView
+                    android:id="@+id/tvContacts"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:gravity="left"
+                    android:text="@string/contact_30_profiles"
+                    android:textColor="@color/colorGray"
+                    android:textSize="16sp" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="2dp" />
+
+                <TextView
+                    android:id="@+id/tvPrice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:gravity="left"
+                    android:text="@string/price_rs_1499"
+                    android:textColor="@color/colorGray"
+                    android:textSize="16sp" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="2dp" />
+
+                <TextView
+                    android:id="@+id/tvContacts"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:layout_marginLeft="3dp"
+                    android:text="@string/client_should_be_contact_directly"
+                    android:textColor="@color/colorGray" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="4dp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PROFILE HIGHLIGHTER" />
+
+
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="2dp" />
+
+                <TextView
+                    android:id="@+id/tvPro_Duration"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:layout_marginLeft="3dp"
+                    android:text="@string/duration_4months"
+                    android:textColor="@color/colorGray"
+                    android:textSize="16sp" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="2dp" />
+
+                <TextView
+                    android:id="@+id/tvPro_Price"
+                    android:layout_marginLeft="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="@string/price_rs_500"
+                    android:textColor="@color/colorGray"
+                    android:textSize="16sp" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="2dp" />
+
+                <TextView
+                    android:id="@+id/tvContacts"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:layout_marginLeft="3dp"
+                    android:text="@string/highlighter_proflie_in_search_results_for_one_month"
+                    android:textColor="@color/colorGray"
+                    android:textSize="15sp" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="4dp" />
+
+
+                <CheckBox
+                    android:id="@+id/checkBox2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="GROOM OF THE DAY/ BRIDE OF THE DAY" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="2dp" />
+
+
+                <TextView
+                    android:id="@+id/tvPro_Duration"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:layout_marginLeft="3dp"
+                    android:text="Duration: 1 Day"
+                    android:textColor="@color/colorGray"
+                    android:textSize="16sp" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="2dp" />
+
+                <TextView
+                    android:id="@+id/tvPro_Price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:layout_marginLeft="3dp"
+                    android:text="@string/price_rs_100"
+                    android:textColor="@color/colorGray"
+                    android:textSize="16sp" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="2dp" />
+
+                <TextView
+                    android:id="@+id/tvCheck"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:layout_marginLeft="3dp"
+                    android:text="@string/if_you_don_t_required_add_on_plans_you_can_unchecked_them"
+                    android:textColor="@color/colorGray"
+                    android:textSize="15sp" />
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="8dp" />
+
+                <TextView
+                    android:id="@+id/tvTotal_Price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:layout_marginLeft="5dp"
+                    android:text="Total Rs: 2099/-"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="6dp" />
+
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="195dp"
+                    android:background="@drawable/btn_border"
+                    android:text="Continue" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

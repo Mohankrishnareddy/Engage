@@ -1,0 +1,126 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <include android:id="@+id/tool_bar"
+        layout="@layout/tool_bar"/>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="15dp"
+                android:padding="12dp"
+                android:text="@string/profile_view_status"
+                android:textColor="#000"
+                android:textSize="20sp" />
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="0.01dp" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="15dp"
+                android:padding="12dp"
+                android:text="Hide By Time"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="15dp"
+                android:padding="12dp"
+                android:text="@string/hide_up_to_date"
+                android:textColor="#000"
+                android:textSize="20sp" />
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="0.01dp" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="15dp"
+                android:padding="12dp"
+                android:text="DD/MM/YYYY"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:layout_weight="0.53" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="15dp"
+                android:padding="12dp"
+                android:text="HideProfile"
+                android:background="@color/colorDarkBlue"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
+                android:layout_weight="0.42" />
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="58dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/colorDarkBlue"
+                android:textColor="@color/colorWhite"
+                android:padding="8dp"
+                android:text="Cancel"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:layout_weight="0.54" />
+
+        </LinearLayout>
+
+
+</LinearLayout>

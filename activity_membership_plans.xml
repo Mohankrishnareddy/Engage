@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include android:id="@+id/tool_bar"
+        layout="@layout/tool_bar"/>
+
+
+
+    <TextView
+        android:id="@+id/pgSilver"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@drawable/btn_border_pack"
+        android:gravity="center"
+        android:padding="8dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/silver"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/pgGold"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@drawable/btn_border_pack"
+        android:gravity="center"
+        android:padding="8dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/gold"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/pgPlatinum"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@drawable/btn_border_pack"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/platinum"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/pgDiamond"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@drawable/btn_border_pack"
+        android:gravity="center"
+        android:padding="8dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/diamond"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/pgVip_Fast_Track"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@drawable/btn_border_pack"
+        android:gravity="center"
+        android:padding="8dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="8dp"
+        android:text="VIP Fastrack"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/pgPremium_Service"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@drawable/btn_border_pack"
+        android:padding="8dp"
+        android:gravity="center"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:text="Premium Service"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/pgProfile_Highlighter"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@drawable/btn_border_pack"
+        android:gravity="center"
+        android:padding="08dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="8dp"
+        android:text="Profile Highlighter"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/pgStarter"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@drawable/btn_border_pack"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/Starter"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="*Note: Select Any One Package"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="25dp"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp" />
+
+
+</LinearLayout>

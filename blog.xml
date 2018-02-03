@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <include android:id="@+id/tool_bar"
+        layout="@layout/tool_bar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="5dp"
+                android:gravity="start"
+                android:text="@string/scientific_importance_of_fast_of_bride_and_bridegroom_on_wedding_day"
+                android:textColor="@color/colorGreen"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="5dp"
+                android:gravity="start"
+                android:text="@string/marriage_in_hinduism_is_a_sacred_relationship_it_is_both_an_obligatory_duty_dharma_and_a_samskara_www_subhamastu_co_in_india_hindus_consider_marriage_as_a_sacred_association_between_two_souls_not_just_two_bodies_wedding_is_meant_for_the_continuation_of_family_and_practice_of_dharma_according_to_hinduism_marriage_pelli_between_two_persons_is_a_very_sacred_relationship_that_is_not_limited_to_this_life_alone_it_extends_across_seven_or_more_lives_during_which_the_couple_help_each_other_progress_spiritually_the_saying_that_marriages_are_made_in_heaven_is_very_much_true_in_case_of_hindu_tradition_two_souls_come_together_and_marry_because_their_karmas_are_intertwined_and_they_have_to_resolve_many_things_together_upon_earth_in_order_to_ensure_their_mutual_salvation_an_ancient_vedic_tradition_advises_bride_and_groom_to_fast_on_the_day_of_their_wedding_as_that_hindu_ritual_holds_lot_of_scientific_and_spiritual_significance_they_fast_from_daybreak_until_after_the_uncovering_veil_eating_their_first_meal_during_their_yichud_not_seeing_each_other_till_the_end_of_the_ceremony_let_us_look_into_the_scientific_and_spiritual_significance_of_the_fast_by_kamma_brides_and_kamma_grooms_there_are_namely_two_reasons_for_fasting_first_tradition_records_that_the_sins_of_the_bride_and_groom_are_forgiven_on_their_wedding_day_because_it_is_a_day_of_forgiveness_it_is_considered_a_day_of_spiritual_inventory_and_of_repentance_as_represented_by_the_fasting_the_wearing_of_white_and_the_recitation_of_the_confession_at_prayers_the_second_reason_is_more_practical_and_halakhically_more_functional_the_vedic_sages_sought_to_avoid_the_drinking_of_liquor_before_the_wedding_as_guests_and_relatives_toast_the_future_the_kamma_customary_wedding_fast_lasts_only_until_after_the_wedding_rituals_is_over_even_if_it_takes_place_in_the_afternoon_it_is_not_necessary_to_make_up_the_fast_on_another_day_in_the_event_of_a_midday_covering_the_relationship_between_the_married_couple_is_essentially_a_relationship_of_the_souls"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/about"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:background="@drawable/blog_two"
+                android:layout_weight="0.75"
+                android:contentDescription="@string/about_image_and_descreption" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

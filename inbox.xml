@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/inbox"
+    tools:context="com.example.cubicitsolution.subam.InboxActivity">
+
+    <include android:id="@+id/tool_bar"
+        layout="@layout/tool_bar"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+
+        <include
+            android:id="@+id/bottom_action_bar"
+            layout="@layout/bottom_navigation_bar"/>
+    </LinearLayout>
+
+
+    <!--<LinearLayout
+        android:layout_height="50dp"
+        android:layout_marginTop="520dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/Home"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="0.25"
+            android:src="@drawable/ic_action_home1"
+            />
+        <ImageView
+            android:id="@+id/fav"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="0.25"
+            android:src="@drawable/ic_action_fav"
+            /><ImageView
+        android:id="@+id/search1"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="0.25"
+        android:src="@drawable/ic_action_search1"
+        />
+        <ImageView
+            android:id="@+id/notification"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="0.25"
+            android:src="@drawable/ic_action_notification1"
+            /><ImageView
+        android:id="@+id/ivHome"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="0.25"
+        android:src="@drawable/ic_action_person1"
+        />
+    </LinearLayout>
+-->
+    <!--<android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+-->
+</android.support.design.widget.CoordinatorLayout>

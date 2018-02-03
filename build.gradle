@@ -1,21 +1,41 @@
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
+apply plugin: 'com.android.application'
 
-buildscript {
-    repositories {
-        jcenter()
-    }
-    dependencies {
-        classpath 'com.android.tools.build:gradle:2.3.3'
-        classpath 'com.google.gms:google-services:1.5.0-beta2'
-        classpath 'com.google.gms:google-services:1.5.0'
+android {
+    compileSdkVersion 25
+    buildToolsVersion '25.0.3'
 
-        // NOTE: Do not place your application dependencies here; they belong
-        // in the individual module build.gradle files
+    defaultConfig {
+        applicationId "com.cubicit.phonemail"
+        minSdkVersion 15
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+        vectorDrawables.useSupportLibrary = true
     }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+
 }
 
-allprojects {
-    repositories {
-        jcenter()
-    }
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    // appcompat library
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.android.support:support-v4:25.3.1'
+    compile 'com.android.support:recyclerview-v7:25.3.1'
+    compile 'com.android.support:cardview-v7:25.3.1'
+    compile 'de.hdodenhof:circleimageview:1.3.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:support-vector-drawable:25.3.1'
+    compile 'com.google.android.gms:play-services-gcm:11.0.4'
 }
